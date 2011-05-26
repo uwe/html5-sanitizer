@@ -1,0 +1,4 @@
+<ul><!-- ul --><li>Probieren</li><li>Tante</li></ul> :: <ul><li>Probieren</li><li>Tante</li></ul>
+<ol><!-- ol --><li>Anette</li><li>Bianca</li></ol> :: <ol><li>Anette</li><li>Bianca</li></ol>
+<dl><!-- dl --><dt>AA</dt><dd>Auto Answer (Modem)</dd><dt>AAE</dt><dd>Allgemeine Anschalte-Erlaubnis</dd><!-- usw. --></dl> :: <div><span>AA</span><div>Auto Answer (Modem)</div><span>AAE</span><div>Allgemeine Anschalte-Erlaubnis</div></div>
+<menu type="toolbar"><!-- menu --><li><menu label="File"><button type="button">New</button><button type="button">Open</button></menu></li><li><menu label="Help"><li>Help</li><li>About</li></menu></li></menu> :: <ul><li><ul><span>New</span><span>Open</span></ul></li><li><ul><li>Help</li><li>About</li></ul></li></ul>

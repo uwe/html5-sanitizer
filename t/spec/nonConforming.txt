@@ -1,0 +1,45 @@
+# Non-conforming in HTML5
+# see readme
+
+<acronym>_CONTENT_</acronym>     :: <span>_CONTENT_</span>
+<applet>_CONTENT_</applet>       :: _EMPTY_
+<basefont>                       :: _EMPTY_
+<bgsound>                        :: _EMPTY_
+<big>_CONTENT_</big>             :: <span class="wysiwyg-font-size-larger">_CONTENT_</span>
+<blink>_CONTENT_</blink>         :: <span>_CONTENT_</span>
+<center>_CONTENT_</center>       :: <div class="wysiwyg-text-align-center">_CONTENT_</div>
+<comment>_CONTENT_</comment>     :: _EMPTY_
+<dir>_CONTENT_</dir>             :: <ul>_CONTENT_</ul>
+<font>_CONTENT_</font>           :: <span>_CONTENT_</span>
+<frame>_CONTENT_</frame>         :: _CONTENT_
+<frameset>_CONTENT_</frameset>   :: _EMPTY_
+<isindex>                        :: _EMPTY_
+<listing>_CONTENT_</listing>     :: <div>_CONTENT_</div>
+<marquee>_CONTENT_</marquee>     :: <span>_CONTENT_</span>
+<multicol>_CONTENT_</multicol>   :: <div>_CONTENT_</div>
+<nextid>                         :: _EMPTY_
+<nobr>_CONTENT_</nobr>           :: <span>_CONTENT_</span>
+<noembed>_CONTENT_</noembed>     :: _EMPTY_
+<noframes>_CONTENT_</noframes>   :: _EMPTY_
+<plaintext>_CONTENT_</plaintext> :: <span>_CONTENT_</span>
+<rb>_CONTENT_</rb>               :: <span>_CONTENT_</span>
+<spacer>                         :: _EMPTY_
+<strike>_CONTENT_</strike>       :: _EMPTY_
+<tt>_CONTENT_</tt>               :: <span>_CONTENT_</span>
+<u>_CONTENT_</u>                 :: <span class="wysiwyg-text-decoration-underline">_CONTENT_</span>
+<xmp>_CONTENT_</xmp>             :: <span>_CONTENT_</span>
+
+<UNKNOWN>_CONTENT_</UNKNOWN>     :: <span>_CONTENT_</span>
+<UNKNOWN>                        :: _EMPTY_
+
+# trash from some web editors: http://code.google.com/intl/de-DE/webstats/2005-12/editors.html
+<csscriptdict>_CONTENT_</csscriptdict> :: <span>_CONTENT_</span>
+<actinic:basehref>_CONTENT_</actinic:basehref> :: <span>_CONTENT_</span>
+<x-claris-window>_CONTENT_</x-claris-window> :: <span>_CONTENT_</span>
+<mm:beginlock>_CONTENT_</mm:beginlock> :: <span>_CONTENT_</span>
+<st1:city>_CONTENT_</st1:city> :: <span>_CONTENT_</span>
+###TODO
+<o:p>_CONTENT_</o:p> :: <span>_CONTENT_</span>
+<v:stroke>_CONTENT_</v:stroke> :: <span>_CONTENT_</span>
+<v:f>_CONTENT_</v:f> :: <span>_CONTENT_</span>
+<NYT_COPYRIGHT>_CONTENT_<NYT_COPYRIGHT> :: <span>_CONTENT_</span>

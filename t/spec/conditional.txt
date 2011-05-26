@@ -1,0 +1,11 @@
+# downlevel-hidden conditional comment, a comment for normal browsers, two comments for IE
+<!--[if IE]>_CONTENT_<![endif]--> :: _EMPTY_
+
+# downlevel-revealed conditional comment, basically 2 comments for normal browsers, and one comment for IE
+<![if !vml]>_CONTENT_<![endif]> :: _CONTENT_
+
+# the same, but valid
+<!--[if !IE]>-->_CONTENT_<!--<![endif]--> :: _CONTENT_
+
+<div><!--[if gte IE 7]><span>inside IE conditional</span><![endif]--></div> :: <div></div>
+<!--[if !IE]><!--><span>NOT inside IE Conditional Comment</span><!-- <![endif]--> :: <span>NOT inside IE Conditional Comment</span>

@@ -1,0 +1,102 @@
+# whitelist classes
+
+<span class="wysiwyg-clear-both">_CONTENT_</span>                :: <span class="wysiwyg-clear-both">_CONTENT_</span>
+<span class="wysiwyg-clear-left">_CONTENT_</span>                :: <span class="wysiwyg-clear-left">_CONTENT_</span>
+<span class="wysiwyg-clear-right">_CONTENT_</span>               :: <span class="wysiwyg-clear-right">_CONTENT_</span>
+<span class="wysiwyg-color-aqua">_CONTENT_</span>                :: <span class="wysiwyg-color-aqua">_CONTENT_</span>
+<span class="wysiwyg-color-black">_CONTENT_</span>               :: <span class="wysiwyg-color-black">_CONTENT_</span>
+<span class="wysiwyg-color-blue">_CONTENT_</span>                :: <span class="wysiwyg-color-blue">_CONTENT_</span>
+<span class="wysiwyg-color-fuchsia">_CONTENT_</span>             :: <span class="wysiwyg-color-fuchsia">_CONTENT_</span>
+<span class="wysiwyg-color-gray">_CONTENT_</span>                :: <span class="wysiwyg-color-gray">_CONTENT_</span>
+<span class="wysiwyg-color-green">_CONTENT_</span>               :: <span class="wysiwyg-color-green">_CONTENT_</span>
+<span class="wysiwyg-color-lime">_CONTENT_</span>                :: <span class="wysiwyg-color-lime">_CONTENT_</span>
+<span class="wysiwyg-color-maroon">_CONTENT_</span>              :: <span class="wysiwyg-color-maroon">_CONTENT_</span>
+<span class="wysiwyg-color-navy">_CONTENT_</span>                :: <span class="wysiwyg-color-navy">_CONTENT_</span>
+<span class="wysiwyg-color-olive">_CONTENT_</span>               :: <span class="wysiwyg-color-olive">_CONTENT_</span>
+<span class="wysiwyg-color-purple">_CONTENT_</span>              :: <span class="wysiwyg-color-purple">_CONTENT_</span>
+<span class="wysiwyg-color-red">_CONTENT_</span>                 :: <span class="wysiwyg-color-red">_CONTENT_</span>
+<span class="wysiwyg-color-silver">_CONTENT_</span>              :: <span class="wysiwyg-color-silver">_CONTENT_</span>
+<span class="wysiwyg-color-teal">_CONTENT_</span>                :: <span class="wysiwyg-color-teal">_CONTENT_</span>
+<span class="wysiwyg-color-white">_CONTENT_</span>               :: <span class="wysiwyg-color-white">_CONTENT_</span>
+<span class="wysiwyg-color-xing">_CONTENT_</span>                :: <span class="wysiwyg-color-xing">_CONTENT_</span>
+<span class="wysiwyg-color-yellow">_CONTENT_</span>              :: <span class="wysiwyg-color-yellow">_CONTENT_</span>
+<span class="wysiwyg-float-left">_CONTENT_</span>                :: <span class="wysiwyg-float-left">_CONTENT_</span>
+<span class="wysiwyg-float-right">_CONTENT_</span>               :: <span class="wysiwyg-float-right">_CONTENT_</span>
+<span class="wysiwyg-font-size-large">_CONTENT_</span>           :: <span class="wysiwyg-font-size-large">_CONTENT_</span>
+<span class="wysiwyg-font-size-larger">_CONTENT_</span>          :: <span class="wysiwyg-font-size-larger">_CONTENT_</span>
+<span class="wysiwyg-font-size-medium">_CONTENT_</span>          :: <span class="wysiwyg-font-size-medium">_CONTENT_</span>
+<span class="wysiwyg-font-size-small">_CONTENT_</span>           :: <span class="wysiwyg-font-size-small">_CONTENT_</span>
+<span class="wysiwyg-font-size-smaller">_CONTENT_</span>         :: <span class="wysiwyg-font-size-smaller">_CONTENT_</span>
+<span class="wysiwyg-font-size-x-large">_CONTENT_</span>         :: <span class="wysiwyg-font-size-x-large">_CONTENT_</span>
+<span class="wysiwyg-font-size-x-small">_CONTENT_</span>         :: <span class="wysiwyg-font-size-x-small">_CONTENT_</span>
+<span class="wysiwyg-font-size-xx-large">_CONTENT_</span>        :: <span class="wysiwyg-font-size-xx-large">_CONTENT_</span>
+<span class="wysiwyg-font-size-xx-small">_CONTENT_</span>        :: <span class="wysiwyg-font-size-xx-small">_CONTENT_</span>
+<span class="wysiwyg-text-align-center">_CONTENT_</span>         :: <span class="wysiwyg-text-align-center">_CONTENT_</span>
+<span class="wysiwyg-text-align-left">_CONTENT_</span>           :: <span class="wysiwyg-text-align-left">_CONTENT_</span>
+<span class="wysiwyg-text-align-right">_CONTENT_</span>          :: <span class="wysiwyg-text-align-right">_CONTENT_</span>
+<span class="wysiwyg-text-decoration-underline">_CONTENT_</span> :: <span class="wysiwyg-text-decoration-underline">_CONTENT_</span>
+
+# a class for all supported elements (even it doesnt make much sense for an hr element), as classes are allowed on each element
+<a class="wysiwyg-clear-both">_CONTENT_</a> :: <a class="wysiwyg-clear-both" rel="nofollow" target="_blank">_CONTENT_</a>
+<b class="wysiwyg-clear-both">_CONTENT_</b> :: <b class="wysiwyg-clear-both">_CONTENT_</b>
+<big class="wysiwyg-clear-both">_CONTENT_</big> :: <span class="wysiwyg-font-size-larger wysiwyg-clear-both">_CONTENT_</span>
+<blockquote class="wysiwyg-clear-both">_CONTENT_</blockquote> :: <blockquote class="wysiwyg-clear-both">_CONTENT_</blockquote>
+<br class="wysiwyg-clear-both"> :: <br class="wysiwyg-clear-both">
+<caption class="wysiwyg-clear-both">_CONTENT_</caption> :: <caption class="wysiwyg-clear-both">_CONTENT_</caption>
+<center class="wysiwyg-clear-both">_CONTENT_</center> :: <div class="wysiwyg-text-align-center wysiwyg-clear-both">_CONTENT_</div>
+<cite class="wysiwyg-clear-both">_CONTENT_</cite> :: <cite class="wysiwyg-clear-both">_CONTENT_</cite>
+<code class="wysiwyg-clear-both">_CONTENT_</code> :: <code class="wysiwyg-clear-both">_CONTENT_</code>
+<dir class="wysiwyg-clear-both">_CONTENT_</dir> :: <ul class="wysiwyg-clear-both">_CONTENT_</ul>
+<div class="wysiwyg-clear-both">_CONTENT_</div> :: <div class="wysiwyg-clear-both">_CONTENT_</div>
+<em class="wysiwyg-clear-both">_CONTENT_</em> :: <em class="wysiwyg-clear-both">_CONTENT_</em>
+<font class="wysiwyg-clear-both">_CONTENT_</font> :: <span class="wysiwyg-clear-both">_CONTENT_</span>
+<h1 class="wysiwyg-clear-both">_CONTENT_</h1> :: <h1 class="wysiwyg-clear-both">_CONTENT_</h1>
+<h2 class="wysiwyg-clear-both">_CONTENT_</h2> :: <h2 class="wysiwyg-clear-both">_CONTENT_</h2>
+<h3 class="wysiwyg-clear-both">_CONTENT_</h3> :: <h3 class="wysiwyg-clear-both">_CONTENT_</h3>
+<h4 class="wysiwyg-clear-both">_CONTENT_</h4> :: <h4 class="wysiwyg-clear-both">_CONTENT_</h4>
+<h5 class="wysiwyg-clear-both">_CONTENT_</h5> :: <h5 class="wysiwyg-clear-both">_CONTENT_</h5>
+<h6 class="wysiwyg-clear-both">_CONTENT_</h6> :: <h6 class="wysiwyg-clear-both">_CONTENT_</h6>
+<hr class="wysiwyg-clear-both"> :: <hr class="wysiwyg-clear-both">
+<i class="wysiwyg-clear-both">_CONTENT_</i> :: <i class="wysiwyg-clear-both">_CONTENT_</i>
+<img class="wysiwyg-clear-both"> :: <img alt="" class="wysiwyg-clear-both">
+<li class="wysiwyg-clear-both">_CONTENT_</li> :: <li class="wysiwyg-clear-both">_CONTENT_</li>
+<map class="wysiwyg-clear-both">_CONTENT_</map> :: <div class="wysiwyg-clear-both">_CONTENT_</div>
+<menu class="wysiwyg-clear-both">_CONTENT_</menu> :: <ul class="wysiwyg-clear-both">_CONTENT_</ul>
+<ol class="wysiwyg-clear-both">_CONTENT_</ol> :: <ol class="wysiwyg-clear-both">_CONTENT_</ol>
+<p class="wysiwyg-clear-both">_CONTENT_</p> :: <p class="wysiwyg-clear-both">_CONTENT_</p>
+<pre class="wysiwyg-clear-both">_CONTENT_</pre> :: <pre class="wysiwyg-clear-both">_CONTENT_</pre>
+<q class="wysiwyg-clear-both">_CONTENT_</q> :: <q class="wysiwyg-clear-both">_CONTENT_</q>
+<small class="wysiwyg-clear-both">_CONTENT_</small> :: <span class="wysiwyg-font-size-smaller wysiwyg-clear-both">_CONTENT_</span>
+<span class="wysiwyg-clear-both">_CONTENT_</span> :: <span class="wysiwyg-clear-both">_CONTENT_</span>
+<strong class="wysiwyg-clear-both">_CONTENT_</strong> :: <strong class="wysiwyg-clear-both">_CONTENT_</strong>
+<table class="wysiwyg-clear-both"><caption>_CONTENT_</caption><colgroup><col></colgroup><thead><tr><th>_CONTENT_</th></tr></thead><tfoot><tr><td>_CONTENT_</td></tr></tfoot><tbody><tr><td>_CONTENT_</td></tr></tbody></table> :: <table class="wysiwyg-clear-both"><caption>_CONTENT_</caption><thead><tr><th>_CONTENT_</th></tr></thead><tfoot><tr><td>_CONTENT_</td></tr></tfoot><tbody><tr><td>_CONTENT_</td></tr></tbody></table>
+<tbody class="wysiwyg-clear-both">_CONTENT_</tbody> :: <tbody class="wysiwyg-clear-both">_CONTENT_</tbody>
+<td class="wysiwyg-clear-both">_CONTENT_</td> :: <td class="wysiwyg-clear-both">_CONTENT_</td>
+<tfoot class="wysiwyg-clear-both">_CONTENT_</tfoot> :: <tfoot class="wysiwyg-clear-both">_CONTENT_</tfoot>
+<th class="wysiwyg-clear-both">_CONTENT_</th> :: <th class="wysiwyg-clear-both">_CONTENT_</th>
+<thead class="wysiwyg-clear-both">_CONTENT_</thead> :: <thead class="wysiwyg-clear-both">_CONTENT_</thead>
+<tr class="wysiwyg-clear-both">_CONTENT_</tr> :: <tr class="wysiwyg-clear-both">_CONTENT_</tr>
+<u class="wysiwyg-clear-both">_CONTENT_</u> :: <span class="wysiwyg-text-decoration-underline wysiwyg-clear-both">_CONTENT_</span>
+<ul class="wysiwyg-clear-both">_CONTENT_</ul> :: <ul class="wysiwyg-clear-both">_CONTENT_</ul>
+
+
+# multiple classes
+<span class="wysiwyg-color-aqua wysiwyg-font-size-large wysiwyg-text-align-right wysiwyg-text-decoration-underline">_CONTENT_</span> :: <span class="wysiwyg-color-aqua wysiwyg-font-size-large wysiwyg-text-align-right wysiwyg-text-decoration-underline">_CONTENT_</span>
+
+# multiple classes, with unknown classes
+<span class="ignore wysiwyg-color-black ignore wysiwyg-text-decoration-underline ignore">_CONTENT_</span> :: <span class="wysiwyg-color-black wysiwyg-text-decoration-underline">_CONTENT_</span>
+<span class="wysiwyg-color-black" class="wysiwyg-font-size-large">_CONTENT_</span> :: <span class="wysiwyg-color-black">_CONTENT_</span>
+
+# some br attributes
+<br clear=right> :: <br class="wysiwyg-clear-right">
+<br clear=left>  :: <br class="wysiwyg-clear-left">
+<br clear=all>   :: <br class="wysiwyg-clear-both">
+<br clear=both>  :: <br class="wysiwyg-clear-both">
+<br clear=RIGHT> :: <br class="wysiwyg-clear-right">
+<br clear=LEFT>  :: <br class="wysiwyg-clear-left">
+<br clear=ALL>   :: <br class="wysiwyg-clear-both">
+<br clear=BOTH>  :: <br class="wysiwyg-clear-both">
+
+# preserve classes in unknown tags that are rewritten by default to span and div
+<header class="wysiwyg-float-left">_CONTENT_</header>  :: <div class="wysiwyg-float-left">_CONTENT_</div>
+<abbr class="wysiwyg-text-align-left">_CONTENT_</abbr> :: <span class="wysiwyg-text-align-left">_CONTENT_</span>

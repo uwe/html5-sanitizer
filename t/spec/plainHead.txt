@@ -1,0 +1,7 @@
+<div><title>Ausblick vom Hamburger Michel</title></div> :: <div></div>
+<div><meta name="keywords" content="HTML, Meta-Informationen, Suchprogramme, HTTP-Protokoll"><meta http-equiv="refresh" content="5; URL=http://de.selfhtml.org/"></div> :: <div></div>
+<div><link rel="copyright" title="Urheberrecht" href="../../editorial/copyright.htm"></div> :: <div></div>
+<div><base href="http://aktuell.de.selfhtml.org"></div> :: <div></div>
+#<div><isindex prompt="Geben Sie einen Suchbegriff ein: "></div> :: <div></div>
+<div><script type="text/javascript">/* <![CDATA[ *//* ]]> */</script></div> :: <div></div>
+<span><bgsound src="background.mid" loop="infinite"><embed src="background.mid" autostart="true" loop="true" hidden="true" height="0" width="0"></span> :: <span></span>

@@ -1,0 +1,279 @@
+# http://heideri.ch/jso/
+<form id="test" /><button form="test" formaction="javascript:alert(1)">X :: <span>X</span>
+<input onfocus=write(1) autofocus> :: _EMPTY_
+<input onblur=write(1) autofocus><input autofocus> :: _EMPTY_
+<video poster=javascript:alert(1)// :: _EMPTY_
+<body onscroll=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus></body> :: <br><br><br><br><br><br>...<br><br><br><br>
+<div onscroll=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus></div> :: <div><br><br><br><br><br><br>...<br><br><br><br></div>
+<form id=test onforminput=alert(1)><input></form><button form=test onformchange=alert(2)>X :: <div></div><span>X</span>
+<video><source onerror="javascript:alert(1)"> :: _EMPTY_
+<video onerror="javascript:alert(1)"><source> :: _EMPTY_
+<form><button formaction="javascript:alert(1)">X :: <div><span>X</span></div>
+<body oninput=alert(1)><input autofocus> :: _EMPTY_
+<div oninput=alert(1)><input autofocus> :: <div></div>
+<frameset onload=alert(1)> :: _EMPTY_
+<table background="javascript:alert(1)"><tr></tr></table> :: <table><tr></tr></table>
+<!--<img src="--><img src=x onerror=alert(1)//"> :: <img alt="">
+<comment><img src="</comment><img src=x onerror=alert(1))//"> :: _EMPTY_
+<![><img src="]><img src=x onerror=alert(1)//"> :: <img alt="">
+<style><img src="</style><img src=x onerror=alert(1)//"> :: <img alt="">
+<style><img src="</style><img src=http://xxx onerror=alert(1)//"> :: <img alt="" src="http://xxx/">
+<li style=list-style:url() onerror=alert(1)> :: <li></li>
+<div style=content:url(data:image/svg+xml,%3Csvg/%3E);visibility:hidden onload=alert(1)></div> :: <div></div>
+<head><base href="javascript://"></head><body><a href="/./,alert(1)//#">XXX</a></body> :: <a rel="nofollow" target="_blank">XXX</a>
+<SCRIPT FOR=document EVENT=onreadystatechange>alert(1)</SCRIPT> :: _EMPTY_
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT> :: _EMPTY_
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="> :: _EMPTY_
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="> :: _EMPTY_
+<b <script>alert(1)</script>0 :: <b>alert(1)0</b>
+<img alt="``onmouseover=alert(1)"> :: <img alt="onmouseoveralert1">
+<div id="div1"><input value="``onmouseover=alert(1)"></div> <div id="div2"></div> :: <div></div> <div></div>
+<div id="div1"><img alt="``onmouseover=alert(1)"></div> <div id="div2"></div> :: <div><img alt="onmouseoveralert1"></div> <div></div>
+<div id="div1"><input value="``onmouseover=alert(1)"></div> <div id="div2"></div> :: <div></div> <div></div>
+<div id="div1"><img alt="'onmouseover=alert(1)"></div> <div id="div2"></div> :: <div><img alt="onmouseoveralert1"></div> <div></div>
+<img alt="``onmouseover=alert(1)"> :: <img alt="onmouseoveralert1">
+<img alt=''onmouseover=alert(1)> :: <img alt="">
+<x '="foo"><x foo='><img alt=x onerror=alert(1)//'> :: <span></span>
+<embed src="javascript:alert(1)"><img src="javascript:alert(1)"><image src="javascript:alert(1)"><script src="javascript:alert(1)"> :: _EMPTY_
+<div style=width:1px;filter:glow onfilterchange=alert(1)>x :: <div>x</div>
+<object data="test.swf"></object> :: _EMPTY_
+<div id=d><x xmlns="><iframe onload=alert(1)"></div> :: <div></div>
+<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)"> :: <img alt="">
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:alert(1)>XXX</a> :: <a rel="nofollow" target="_blank">XXX</a>
+<img alt="x` `<script>alert(1)</script>"` `> :: <img alt="x scriptalert1script">
+<img src onerror /" '"= alt=alert(1)//"> :: <img alt="alert1">
+<title onpropertychange=alert(1)></title><title title=> :: _EMPTY_
+<div style="-o-link:'javascript:alert(1)';-o-link-source:current">X :: <div>X</div>
+<style>p[foo=bar{}*{-o-link:'javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style> :: _EMPTY_
+<link rel=stylesheet href=data:,*%7bx:expression(write(1))%7d :: _EMPTY_
+<style>@import "data:,*%7bx:expression(write(1))%7D";</style> :: _EMPTY_
+</ style=?=-=expression\28write(1)\29> ::  style=?=-=expression\28write(1)\29&gt;
+<div style=content:url(test2.svg)></div> :: <div></div>
+<div style="list-style:url(http://foo.f)\20url(javascript:alert(1));">X :: <div>X</div>
+<div id=d><div style="font-family:'sans\27\3B color\3Ared\3B'">X</div></div> :: <div><div>X</div></div>
+<script>({set/**/$($){_/**/setter=$,_=1}}).$=alert</script> :: _EMPTY_
+<script>({0:#0=alert/#0#/#0#(0)})</script> :: _EMPTY_
+<script src="#">{alert(1)}</script>;1 :: ;1
+<b><script<b></b><alert(1)</script </b> :: <b></b>
+<script<{alert(1)}/></script </> :: _EMPTY_
+<svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:alert(1)"></g></svg> :: _EMPTY_
+<svg xmlns="http://www.w3.org/2000/svg"><script>alert(1)</script></svg> :: _EMPTY_
+<svg onload="javascript:alert(1)" xmlns="http://www.w3.org/2000/svg"></svg> :: _EMPTY_
+<iframe src="data:image/svg-xml,%1F%8B%08%00%00%00%00%00%02%03%B3)N.%CA%2C(Q%A8%C8%CD%C9%2B%B6U%CA())%B0%D2%D7%2F%2F%2F%D7%2B7%D6%CB%2FJ%D77%B4%B4%B4%D4%AF%C8(%C9%CDQ%B2K%CCI-*%D10%D4%B4%D1%87%E8%B2%03"></iframe> :: _EMPTY_
+<?xml-stylesheet href="javascript:alert(1)"?> :: _EMPTY_
+<script xmlns="http://www.w3.org/1999/xhtml">&#x61;l&#x65;rt&#40;1)</script> :: _EMPTY_
+<!DOCTYPE x[<!ENTITY x SYSTEM "test.xxe">]><y>&x;</y> :: ]&gt;<span>&amp;x;</span>
+<!DOCTYPE x [ <!ATTLIST img xmlns CDATA "http://www.w3.org/1999/xhtml" src CDATA "x" onerror CDATA "alert(1)"> ]><img /> ::   ]&gt;<img alt="">
+<doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"><html:style /><x xlink:href="javascript:alert(1)" xlink:type="simple">XXX</x></doc> :: <span><span>XXX</span></span>
+<card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:alert(1)"/></onevent><timer value="1"/></card> :: <span><span></span></span>
+<?xml-stylesheet type="text/css"?><!DOCTYPE x SYSTEM "test.dtd"><x>&x;</x> :: <span>&amp;x;</span>
+<?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:test.xdr"/> :: <img alt="">
+<x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onLoad" xlink:href="javascript:alert(1)" xlink:type="simple"/> :: _EMPTY_
+<meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi :: &amp;ADz&amp;AGn&amp;AG0&amp;AEf&amp;ACA&amp;AHM&amp;AHI&amp;AGO&amp;AD0&amp;AGn&amp;ACA&amp;AG8Abg&amp;AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&amp;ACAAPABi
+<x repeat="template" repeat-start="999999">0<y repeat="template" repeat-start="999999">1</y></x> :: <span>0<span>1</span></span>
+<input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!> :: _EMPTY_
+<input onblur=focus() autofocus><input> :: _EMPTY_
+<x style=`behavior:url(#default#time2)` onbegin=`write(1)` > :: _EMPTY_
+<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=alert(1)&gt;`> :: _EMPTY_
+<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=alert(1)&gt;> :: _EMPTY_
+<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=test.vml#xss></vmlframe> :: _EMPTY_
+<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:alert(1) strokecolor=white strokeweight=1000px from=0 to=1000 /></a> :: <a rel="nofollow" target="_blank"></a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">XXX</a> :: <a rel="nofollow" target="_blank">XXX</a>
+<x style="behavior:url(test.sct)"> :: _EMPTY_
+<xml id="xss" src="test.htc"></xml><label dataformatas="html" datasrc="#xss" datafld="payload">_CONTENT_</label> :: <span>_CONTENT_</span>
+<event-source src="event.php" onload="alert(1)"> :: _EMPTY_
+
+# XSS Vectors from various sources
+<img src=x onerror/ / /=alert(1)>  :: <img alt="">
+&<script>document.vulnerable=true;</script> :: &amp;
+&{document.vulnerable=true;}; :: &amp;&#123;document.vulnerable=true;&#125;;
+<!-- -- --><script>document.vulnerable=true;</script><!-- -- --> :: _EMPTY_
+<!--[if gte IE 4]><SCRIPT>document.vulnerable=true;</SCRIPT><![endif]--> :: _EMPTY_
+<![CDATA[<!--]]<script>document.vulnerable=true;//--></script> :: document.vulnerable=true;//--&gt;
+</TITLE><SCRIPT>document.vulnerable=true;</SCRIPT> :: _EMPTY_
+<<SCRIPT>document.vulnerable=true;//<</SCRIPT> :: document.vulnerable=true;//
+<<script>document.vulnerable=true;</script> :: document.vulnerable=true;
+<? echo('<SCR)';echo('IPT>document.vulnerable=true</SCRIPT>'); ?> ::  echo(&#39;<span>document.vulnerable=true&#39;); ?&gt;</span>
+<a href="about:<script>document.vulnerable=true;</script>"> :: <a rel="nofollow" target="_blank"></a>
+<a href="javascript#document.vulnerable=true;"> :: <a rel="nofollow" target="_blank"></a>
+<BASE HREF="javascript:document.vulnerable=true;//"> :: _EMPTY_
+<BGSOUND SRC="javascript:document.vulnerable=true;"> :: _EMPTY_
+<bgsound src="javascript:document.vulnerable=true;"> :: _EMPTY_
+<BODY BACKGROUND="javascript:document.vulnerable=true;"> :: _EMPTY_
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=document.vulnerable=true;> :: _EMPTY_
+<body onload="document.vulnerable=true;"> :: _EMPTY_
+<BODY ONLOAD=document.vulnerable=true;> :: _EMPTY_
+<BR SIZE="&{document.vulnerable=true}"> :: <br>
+<div datafld="b" dataformatas="html" datasrc="#X"></div> :: <div></div>
+<div onmouseover="document.vulnerable=true;"> :: <div></div>
+<DIV STYLE="background-image: url(&#1;javascript:document.vulnerable=true;)"> :: <div></div>
+<DIV STYLE="background-image: url(javascript:document.vulnerable=true;)"> :: <div></div>
+<div style="background-image: url(javascript:document.vulnerable=true;);"> :: <div></div>
+<div style="behaviour: url([link to code]);"> :: <div></div>
+<div style="binding: url([link to code]);"> :: <div></div>
+<DIV STYLE="width: expression(document.vulnerable=true);"> :: <div></div>
+<div style="width: expression(document.vulnerable=true;);"> :: <div></div>
+<FRAMESET><FRAME SRC="javascript:document.vulnerable=true;"></FRAMESET> :: _EMPTY_
+###TODO
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"></HEAD>+ADw-SCRIPT+AD4-document.vulnerable=true;+ADw-/SCRIPT+AD4- :: +ADw-SCRIPT+AD4-document.vulnerable=true;+ADw-/SCRIPT+AD4-
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>document.vulnerable=true</SCRIPT>"></BODY></HTML> :: _EMPTY_
+<iframe src="javascript:document.vulnerable=true; < :: _EMPTY_
+<IFRAME SRC="javascript:document.vulnerable=true;"></IFRAME> :: _EMPTY_
+<IMG DYNSRC="javascript:document.vulnerable=true;"> :: <img alt="">
+<img dynsrc="javascript:document.vulnerable=true;"> :: <img alt="">
+<IMG LOWSRC="javascript:document.vulnerable=true;"> :: <img alt="">
+<IMG SRC=" &#14; javascript:document.vulnerable=true;"> :: <img alt="">
+<img src="blah"onmouseover="document.vulnerable=true;"> :: <img alt="">
+<img src="blah>" onmouseover="document.vulnerable=true;"> :: <img alt="">
+<IMG SRC="jav ascript:document.vulnerable=true;"> :: <img alt="">
+<IMG SRC="javascript:document.vulnerable=true;" :: <img alt="">
+<IMG SRC="javascript:document.vulnerable=true;"> :: <img alt="">
+<img src="javascript:document.vulnerable=true;"> :: <img alt="">
+<img src="livescript:document.vulnerable=true;"> :: <img alt="">
+<img src="mocha:document.vulnerable=true;"> :: <img alt="">
+<img src=&{document.vulnerable=true;};> :: <img alt="">
+<IMG STYLE="xss:expr/*XSS*/ession(document.vulnerable=true)"> :: <img alt="">
+<input type="image" dynsrc="javascript:document.vulnerable=true;"> :: _EMPTY_
+<INPUT TYPE="IMAGE" SRC="javascript:document.vulnerable=true;"> :: _EMPTY_
+<LAYER SRC="javascript:document.vulnerable=true;"></LAYER> :: _EMPTY_
+<LINK REL="stylesheet" HREF="javascript:document.vulnerable=true;"> :: _EMPTY_
+<link rel="stylesheet" href="javascript:document.vulnerable=true;"> :: _EMPTY_
+<meta http-equiv="refresh" content="0;url=javascript:document.vulnerable=true;"> :: _EMPTY_
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>document.vulnerable=true</SCRIPT>"> :: _EMPTY_
+<object classid="clsid:..." codebase="javascript:document.vulnerable=true;"> :: _EMPTY_
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.vulnerable=true></OBJECT> :: _EMPTY_
+<SCRIPT <B>document.vulnerable=true;</SCRIPT> :: _EMPTY_
+<SCRIPT>a=/XSS/\ndocument.vulnerable=true;</SCRIPT> :: _EMPTY_
+<SCRIPT>document.vulnerable=true;</SCRIPT> :: _EMPTY_
+<STYLE type="text/css">BODY{background:url("javascript:document.vulnerable=true")}</STYLE> :: _EMPTY_
+<STYLE TYPE="text/javascript">document.vulnerable=true;</STYLE> :: _EMPTY_
+<style type="text/javascript">document.vulnerable=true;</style> :: _EMPTY_
+<STYLE>.XSS{background-image:url("javascript:document.vulnerable=true");}</STYLE><A CLASS=XSS></A> :: <a rel="nofollow" target="_blank"></a>
+<style><!--</style><script>document.vulnerable=true;//--></script> :: _EMPTY_
+<STYLE>@im\port'\ja\vasc\ript:document.vulnerable=true';</STYLE> :: _EMPTY_
+<STYLE>li {list-style-image: url("javascript:document.vulnerable=true;");</STYLE><UL><LI>XSS :: <ul><li>XSS</li></ul>
+<TABLE BACKGROUND="javascript:document.vulnerable=true;"> :: <table></table>
+<TABLE><TD BACKGROUND="javascript:document.vulnerable=true;"> :: <table><td></td></table>
+<xml id="X"><a><b><script>document.vulnerable=true;</script>;</b></a></xml> :: _EMPTY_
+<XML ID="xss"><I><B><IMG SRC="javas<!-- -->cript:document.vulnerable=true"></B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN> :: <span></span>
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:document.vulnerable=true;">]]</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN> :: <span></span>
+<xml src="javascript:document.vulnerable=true;"> :: _EMPTY_
+<XSS STYLE="xss:expression(document.vulnerable=true)"> :: _EMPTY_
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(document.vulnerable=true)'> :: exp/*<a rel="nofollow" target="_blank"></a>
+[\xC0][\xBC]script>document.vulnerable=true;[\xC0][\xBC]/script> :: [\xC0][\xBC]script&gt;document.vulnerable=true;[\xC0][\xBC]/script&gt;
+\";document.vulnerable=true;;// :: \&quot;;document.vulnerable=true;;//
+¼script¾document.vulnerable=true;¼/script¾ :: ¼script¾document.vulnerable=true;¼/script¾
+<? foo="><script>alert(1)</script>"> ::  foo=&quot;&gt;&quot;&gt;
+<! foo="><script>alert(1)</script>"> :: &quot;&gt;
+</ foo="><script>alert(1)</script>"> ::  foo=&quot;&gt;&quot;&gt;
+<? foo="><x foo='?><script>alert(1)</script>'>"> ::  foo=&quot;&gt;<span>&quot;&gt;</span>
+<! foo="[[[Inception]]"><x foo="]foo><script>alert(1)</script>"> :: _EMPTY_
+<% foo><x foo="%><script>alert(1)</script>"> :: _EMPTY_
+
+
+# event attributes of HTML, HTML5, and proprietary MS-stuff
+# just treated as unsupported attributes
+
+<span onabort="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onactivate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onafterprint="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onafterupdate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforeactivate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforecopy="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforecut="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforedeactivate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforeeditfocus="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforepaste="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforeprint="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforeunload="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbeforeupdate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onblur="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onbounce="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncanplay="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncanplaythrough="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onchange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onclick="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncontextmenu="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncontrolselect="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncopy="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncuechange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oncut="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondataavailable="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondatasetchanged="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondblclick="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondeactivate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondrag="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondragend="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondragenter="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondragleave="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondragover="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondragstart="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondrop="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ondurationchange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onemptied="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onended="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onerror="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onerrorupdate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onfilterchange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onfinish="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onfocus="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onfocusin="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onfocusout="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onformchange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onforminput="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onhelp="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oninput="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span oninvalid="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onkeydown="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onkeypress="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onkeyup="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onlayoutcomplete="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onload="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onloadeddata="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onloadedmetadata="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onloadstart="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onlosecapture="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmousedown="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmouseenter="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmouseleave="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmousemove="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmouseout="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmouseover="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmouseup="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmousewheel="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmove="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmoveend="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onmovestart="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onpaste="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onpause="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onplay="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onplaying="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onprogress="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onpropertychange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onratechange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onreadystatechange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onreadystatechanged="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onreset="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onresize="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onresizeend="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onresizestart="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onrowenter="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onrowexit="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onrowsdelete="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onrowsinserted="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onscroll="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onseeked="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onseeking="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onselect="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onselectionchange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onshow="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onstalled="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onstart="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onstop="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onsubmit="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onsuspend="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ontimeerror="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span ontimeupdate="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onunload="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onvolumechange="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>
+<span onwaiting="document.vulnerable=true;">_CONTENT_</span> :: <span>_CONTENT_</span>

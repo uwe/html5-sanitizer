@@ -1,0 +1,4 @@
+<p>The page <cite>Example Web Page</cite> says <q cite="http://example.com">You have reached this web page ...</q>.</p> :: <p>The page <cite>Example Web Page</cite> says <q cite="http://example.com/">You have reached this web page ...</q>.</p>
+<p>The page <cite>Example Local Page</cite> says <q cite="/example.html">You have reached this web page ...</q>.</p>    :: <p>The page <cite>Example Local Page</cite> says <q>You have reached this web page ...</q>.</p>
+<blockquote cite="https://example.com"><p>You have reached ...</p><p>These domain names ...</p></blockquote>            :: <blockquote cite="https://example.com/"><p>You have reached ...</p><p>These domain names ...</p></blockquote>
+<blockquote cite="/example.html"><p>You have reached ...</p><p>These domain names ...</p></blockquote>                  :: <blockquote><p>You have reached ...</p><p>These domain names ...</p></blockquote>

@@ -1,0 +1,8 @@
+# compare http://validator.w3.org/dev/tests/#output_test
+<a href="http://example.com/foo.cgi?chapter=1&section=2&copy=3&lang=en">...</a> :: <a href="http://example.com/foo.cgi?chapter=1&amp;section=2&amp;copy=3&amp;lang=en" rel="nofollow" target="_blank">...</a>
+<b><i>foo</b></i> :: <b><i>foo</i></b>
+<foo>foo</foo> :: <span>foo</span>
+<p>&a</p> :: <p>&amp;a</p>
+<p><span></p> :: <p><span></span></p>
+<img alt="img"height="1"src="http://example.com/example.png"width="1"> :: <img alt="img" height="1" src="http://example.com/example.png" width="1">
+<div><body>_CONTENT_</body></div> :: <div>_CONTENT_</div>

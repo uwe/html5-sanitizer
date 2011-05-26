@@ -1,0 +1,16 @@
+<table border="1" rules="groups"><caption>caption</caption><colgroup><col width="4*"><col width="2*"></colgroup><thead><tr><th>Assoziation 1</th><th>Assoziation 2</th></tr></thead><tfoot><tr><td><i>betroffen:<br>4 Mio.</i></td><td><i>betroffen:<br>2 Mio.</i></td></tr></tfoot><tbody><tr><td>Berlin</td><td>Muenchen</td></tr><tr><td>Miljoeh</td><td>Kiez</td></tr></tbody></table> :: <table><caption>caption</caption><thead><tr><th>Assoziation 1</th><th>Assoziation 2</th></tr></thead><tfoot><tr><td><i>betroffen:<br>4 Mio.</i></td><td><i>betroffen:<br>2 Mio.</i></td></tr></tfoot><tbody><tr><td>Berlin</td><td>Muenchen</td></tr><tr><td>Miljoeh</td><td>Kiez</td></tr></tbody></table>
+<table border="1"><tr><th colspan="2" rowspan="2">Der Mensch ist...</th><td>zum einen Teil ein Esel</td></tr><tr><td>zum anderen Teil ein Affe</td></tr><tr><td>weder ein richtiger Esel</td><td>noch ein richtiger Affe</td><td>menschlich, allzumenschlich</td></tr></table> :: <table><tr><th colspan="2" rowspan="2">Der Mensch ist...</th><td>zum einen Teil ein Esel</td></tr><tr><td>zum anderen Teil ein Affe</td></tr><tr><td>weder ein richtiger Esel</td><td>noch ein richtiger Affe</td><td>menschlich, allzumenschlich</td></tr></table>
+###MULTILINE
+###CHOMP
+<table border="1">
+<tr><td colspan="2" rowspan="2">Der Mensch ist...</td><td>zum einen Teil ein Esel</td></tr>
+<tr><td>zum anderen Teil ein Affe</td></tr>
+<tr><td>weder ein richtiger Esel</td><td>noch ein richtiger Affe</td><td>menschlich, allzumenschlich</td></tr>
+</table>
+---
+<table>
+<tr><td colspan="2" rowspan="2">Der Mensch ist...</td><td>zum einen Teil ein Esel</td></tr>
+<tr><td>zum anderen Teil ein Affe</td></tr>
+<tr><td>weder ein richtiger Esel</td><td>noch ein richtiger Affe</td><td>menschlich, allzumenschlich</td></tr>
+</table>
+===

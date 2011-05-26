@@ -1,0 +1,16 @@
+# no automatic link conversion in pre or code elements
+<code>https://www.example.com</code> :: <code>https://www.example.com</code>
+<pre>https://www.example.com</pre> :: <pre>https://www.example.com</pre>
+<pre><code>https://www.example.com</code></pre> :: <pre><code>https://www.example.com</code></pre>
+
+###MULTILINE
+<pre><code>var i: Integer;
+begin
+  i := 1;
+end.</code></pre>
+---
+<pre><code>var i: Integer;
+begin
+  i := 1;
+end.</code></pre>
+===

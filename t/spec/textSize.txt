@@ -1,0 +1,16 @@
+<font size="8">_CONTENT_</font> :: <span>_CONTENT_</span>
+<font size="7">_CONTENT_</font> :: <span class="wysiwyg-font-size-xx-large">_CONTENT_</span>
+<font size="6">_CONTENT_</font> :: <span class="wysiwyg-font-size-xx-large">_CONTENT_</span>
+<font size="5">_CONTENT_</font> :: <span class="wysiwyg-font-size-x-large">_CONTENT_</span>
+<font size="4">_CONTENT_</font> :: <span class="wysiwyg-font-size-large">_CONTENT_</span>
+<font size="3">_CONTENT_</font> :: <span class="wysiwyg-font-size-medium">_CONTENT_</span>
+<font size="2">_CONTENT_</font> :: <span class="wysiwyg-font-size-small">_CONTENT_</span>
+<font size="1">_CONTENT_</font> :: <span class="wysiwyg-font-size-xx-small">_CONTENT_</span>
+<font size="0">_CONTENT_</font> :: <span>_CONTENT_</span>
+
+<font size="+1">_CONTENT_</font> :: <span class="wysiwyg-font-size-larger">_CONTENT_</span>
+<font size="-1">_CONTENT_</font> :: <span class="wysiwyg-font-size-smaller">_CONTENT_</span>
+<font size="+3">_CONTENT_</font> :: <span class="wysiwyg-font-size-larger">_CONTENT_</span>
+<font size="-3">_CONTENT_</font> :: <span class="wysiwyg-font-size-smaller">_CONTENT_</span>
+<font size="+">_CONTENT_</font> :: <span class="wysiwyg-font-size-larger">_CONTENT_</span>
+<font size="-">_CONTENT_</font> :: <span class="wysiwyg-font-size-smaller">_CONTENT_</span>

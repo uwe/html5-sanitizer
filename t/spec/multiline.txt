@@ -1,0 +1,89 @@
+###MULTILINE
+<div>_CONTENT_</div>
+---
+<div>_CONTENT_</div>
+===
+###MULTILINE
+<div>
+  <span>_CONTENT_</span>
+</div>
+---
+<div>
+  <span>_CONTENT_</span>
+</div>
+===
+###MULTILINE
+<a href="https://www.example.com">
+  <h2>heading</h2>
+  <p>paragraph</p>
+</a>
+---
+<a href="https://www.example.com/" rel="nofollow" target="_blank">
+  <h2>heading</h2>
+  <p>paragraph</p>
+</a>
+===
+###TRIM
+###MULTILINE
+<ul class="checkbox-list">
+ <li>
+  <label for="item01">
+   <input type="checkbox" id="item01" name="io1">Item One
+  </label>
+  <ul>
+   <li>
+    <label for="item01-01">
+     <input type="checkbox" id="item01-01" name="io1-1">A sublist
+    </label>
+    <p>
+     I am a long hint text. Since my programmer is a lazy guy, he will probably use
+     the boring lorem ipsum, or will he?
+    </p>
+   </li>
+   <li>
+    <label for="item01-02">
+     <input type="checkbox" id="item01-02" name="io1-2">Item One-Two
+     <span class="new-sign">New</span>
+    </label>
+   </li>
+  </ul>
+ </li>
+ 
+ <li>
+  <label for="item02">
+   <input type="checkbox" id="item02" name="io2">Item Two
+  </label>
+ </li>
+</ul>
+---
+<ul>
+ <li>
+  <span>
+   Item One
+  </span>
+  <ul>
+   <li>
+    <span>
+     A sublist
+    </span>
+    <p>
+     I am a long hint text. Since my programmer is a lazy guy, he will probably use
+     the boring lorem ipsum, or will he?
+    </p>
+   </li>
+   <li>
+    <span>
+     Item One-Two
+     <span>New</span>
+    </span>
+   </li>
+  </ul>
+</li>
+ 
+ <li>
+  <span>
+   Item Two
+  </span>
+ </li>
+</ul>
+===

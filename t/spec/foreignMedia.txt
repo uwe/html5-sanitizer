@@ -1,0 +1,7 @@
+# foreign content http://test.w3.org/html/tests/approved/foreigncontent/
+<object><svg width="100px" height="100px"><rect  width="100px" height="100px" fill="none"/></svg></object> :: _EMPTY_
+<button><svg width="100px" height="100px"><rect  width="100px" height="100px" fill="none"/></svg></button> :: <span></span>
+<video src="http://media.w3.org/2010/05/video/movie_300.ogv">you do not implement the HTMLVideoElement</video> :: _EMPTY_
+<canvas id="canvas1" width="300" height="150">Browser does not support HTML5 Canvas.</canvas> :: _EMPTY_
+<audio><img src="../images/fail.gif" /></audio> :: _EMPTY_
+<audio id="audio0" src="foobar.mp3" autoplay="">Your browser does not support media elements.</audio> :: _EMPTY_

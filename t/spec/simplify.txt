@@ -1,0 +1,70 @@
+###OPTIMIZE
+
+# 0 children, nested
+<div></div> :: _EMPTY_
+<span></span> :: _EMPTY_
+<div><div></div></div> :: _EMPTY_
+<div><div><div></div></div></div> :: _EMPTY_
+<span><span></span></span> :: _EMPTY_
+<span><span><span></span></span></span> :: _EMPTY_
+<div><span></span></div> :: _EMPTY_
+
+# 0 children, invalid
+<div><span></div> :: _EMPTY_
+<span><span></span> :: _EMPTY_
+
+# deleted children
+<div><input></div> :: _EMPTY_
+<span><input></span> :: _EMPTY_
+<div><input><input></div> :: _EMPTY_
+<span><input><input></span> :: _EMPTY_
+
+# must not optimize flow with phrasing child
+<div><span>_CONTENT_</span></div>  :: <div><span>_CONTENT_</span></div>
+
+# nested flow
+<div><div>_CONTENT_</div></div> :: <div>_CONTENT_</div>
+<div><h2>_CONTENT_</h2></div> :: <h2>_CONTENT_</h2>
+
+# nested phrasing
+<span><span>_CONTENT_</span></span>  :: <span>_CONTENT_</span>
+
+# phrasing
+<span><em>_CONTENT_</em></span> :: <em>_CONTENT_</em>
+
+# phrasing with attribute and phrasing child
+<span class="wysiwyg-color-black"><em>_CONTENT_</em></span> :: <span class="wysiwyg-color-black"><em>_CONTENT_</em></span>
+
+# phrasing child with attribute 
+<span><span class="wysiwyg-color-black">_CONTENT_</span></span> :: <span class="wysiwyg-color-black">_CONTENT_</span>
+
+# transparent
+<div><a rel="nofollow" target="_blank">_CONTENT_</a></div> :: <div><a rel="nofollow" target="_blank">_CONTENT_</a></div>
+<span><a rel="nofollow" target="_blank">_CONTENT_</a></span> :: <span><a rel="nofollow" target="_blank">_CONTENT_</a></span>
+<span><code>_CONTENT_</code></span> :: <span><code>_CONTENT_</code></span>
+<div><code>_CONTENT_</code></div> :: <div><code>_CONTENT_</code></div>
+
+# empty
+<div><img alt="img" src="http://www.example.com/example.png"></div> :: <div><img alt="img" src="http://www.example.com/example.png"></div>
+<span><img alt="img" src="http://www.example.com/example.png"></span> :: <img alt="img" src="http://www.example.com/example.png">
+# empty, with attribute
+<span class="wysiwyg-color-black"><img alt="img" src="http://www.example.com/example.png"></span> :: <span class="wysiwyg-color-black"><img alt="img" src="http://www.example.com/example.png"></span>
+
+# renamed
+<span><ins>_CONTENT_</ins></span> :: <span>_CONTENT_</span>
+<div><aside>_CONTENT_</aside></div> :: <div>_CONTENT_</div>
+
+# 2 children
+<div><div>_CONTENT_</div><div>_CONTENT_</div></div> :: <div><div>_CONTENT_</div><div>_CONTENT_</div></div>
+<span><span>_CONTENT_</span><span>_CONTENT_</span></span>  :: <span><span>_CONTENT_</span><span>_CONTENT_</span></span>
+
+# 2 children, but one of them deleted
+<div><input><div>_CONTENT_</div></div> :: <div>_CONTENT_</div>
+<span><input><span>_CONTENT_</span></span>  :: <span>_CONTENT_</span>
+
+# anonymous text boxes and whitespace
+<div>Hello<span></span></div> :: <div>Hello</div>
+<span>Hello<span>_CONTENT_</span></span> :: <span>Hello<span>_CONTENT_</span></span>
+<span> <span>_CONTENT_</span></span> :: <span> <span>_CONTENT_</span></span>
+<span> <span> </span> </span> :: <span> <span> </span> </span>
+<span>invalid<span></span> :: <span>invalid</span>

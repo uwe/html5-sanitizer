@@ -1,0 +1,96 @@
+<img alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" height="1" src="https://www.example.com/example.png" width="1">
+<img _moz_dirty="true" alt="img"> :: <img alt="img">
+<img alt='img' height='1' width='1'> :: <img alt="img" height="1" width="1">
+<img alt=img height=1 width=1> :: <img alt="img" height="1" width="1">
+<img width=1 height=1 alt=img> :: <img alt="img" height="1" width="1">
+<img ALT=img HEIGHT=1 WIDTH=1> :: <img alt="img" height="1" width="1">
+# note that the accent grave is part of the attribute value, but removed
+# ... so the following is basically a non-quoted attribute value
+<img alt=`img` height=`1` width=`1`> :: <img alt="img" height="1" width="1">
+
+# some elements allow align in a text-align-sense
+<caption align=center>_CONTENT_</caption> :: <caption class="wysiwyg-text-align-center">_CONTENT_</caption>
+<caption align=justify>_CONTENT_</caption> :: <caption class="wysiwyg-text-align-justify">_CONTENT_</caption>
+<caption align=left>_CONTENT_</caption> :: <caption class="wysiwyg-text-align-left">_CONTENT_</caption>
+<caption align=right>_CONTENT_</caption> :: <caption class="wysiwyg-text-align-right">_CONTENT_</caption>
+<div align=CENTER>_CONTENT_</div> :: <div class="wysiwyg-text-align-center">_CONTENT_</div>
+<div align=JUSTIFY>_CONTENT_</div> :: <div class="wysiwyg-text-align-justify">_CONTENT_</div>
+<div align=LEFT>_CONTENT_</div> :: <div class="wysiwyg-text-align-left">_CONTENT_</div>
+<div align=RIGHT>_CONTENT_</div> :: <div class="wysiwyg-text-align-right">_CONTENT_</div>
+<h1 align="center">_CONTENT_</h2> :: <h1 class="wysiwyg-text-align-center">_CONTENT_</h1>
+<h1 align="justify">_CONTENT_</h2> :: <h1 class="wysiwyg-text-align-justify">_CONTENT_</h1>
+<h1 align="left">_CONTENT_</h2> :: <h1 class="wysiwyg-text-align-left">_CONTENT_</h1>
+<h1 align="right">_CONTENT_</h2> :: <h1 class="wysiwyg-text-align-right">_CONTENT_</h1>
+<h2 align='center'>_CONTENT_</h2> :: <h2 class="wysiwyg-text-align-center">_CONTENT_</h2>
+<h2 align='justify'>_CONTENT_</h2> :: <h2 class="wysiwyg-text-align-justify">_CONTENT_</h2>
+<h2 align='left'>_CONTENT_</h2> :: <h2 class="wysiwyg-text-align-left">_CONTENT_</h2>
+<h2 align='right'>_CONTENT_</h2> :: <h2 class="wysiwyg-text-align-right">_CONTENT_</h2>
+<h3 align=center>_CONTENT_</h3> :: <h3 class="wysiwyg-text-align-center">_CONTENT_</h3>
+<h3 align=justify>_CONTENT_</h3> :: <h3 class="wysiwyg-text-align-justify">_CONTENT_</h3>
+<h3 align=left>_CONTENT_</h3> :: <h3 class="wysiwyg-text-align-left">_CONTENT_</h3>
+<h3 align=right>_CONTENT_</h3> :: <h3 class="wysiwyg-text-align-right">_CONTENT_</h3>
+<h4 align=center>_CONTENT_</h4> :: <h4 class="wysiwyg-text-align-center">_CONTENT_</h4>
+<h4 align=justify>_CONTENT_</h4> :: <h4 class="wysiwyg-text-align-justify">_CONTENT_</h4>
+<h4 align=left>_CONTENT_</h4> :: <h4 class="wysiwyg-text-align-left">_CONTENT_</h4>
+<h4 align=right>_CONTENT_</h4> :: <h4 class="wysiwyg-text-align-right">_CONTENT_</h4>
+<h5 align=center>_CONTENT_</h5> :: <h5 class="wysiwyg-text-align-center">_CONTENT_</h5>
+<h5 align=justify>_CONTENT_</h5> :: <h5 class="wysiwyg-text-align-justify">_CONTENT_</h5>
+<h5 align=left>_CONTENT_</h5> :: <h5 class="wysiwyg-text-align-left">_CONTENT_</h5>
+<h5 align=right>_CONTENT_</h5> :: <h5 class="wysiwyg-text-align-right">_CONTENT_</h5>
+<p align=center>_CONTENT_</p> :: <p class="wysiwyg-text-align-center">_CONTENT_</p>
+<p align=justify>_CONTENT_</p> :: <p class="wysiwyg-text-align-justify">_CONTENT_</p>
+<p align=left>_CONTENT_</p> :: <p class="wysiwyg-text-align-left">_CONTENT_</p>
+<p align=right>_CONTENT_</p> :: <p class="wysiwyg-text-align-right">_CONTENT_</p>
+<td align=center>_CONTENT_</td> :: <td class="wysiwyg-text-align-center">_CONTENT_</td>
+<td align=justify>_CONTENT_</td> :: <td class="wysiwyg-text-align-justify">_CONTENT_</td>
+<td align=left>_CONTENT_</td> :: <td class="wysiwyg-text-align-left">_CONTENT_</td>
+<td align=right>_CONTENT_</td> :: <td class="wysiwyg-text-align-right">_CONTENT_</td>
+<tfoot align=center>_CONTENT_</tfoot> :: <tfoot class="wysiwyg-text-align-center">_CONTENT_</tfoot>
+<tfoot align=justify>_CONTENT_</tfoot> :: <tfoot class="wysiwyg-text-align-justify">_CONTENT_</tfoot>
+<tfoot align=left>_CONTENT_</tfoot> :: <tfoot class="wysiwyg-text-align-left">_CONTENT_</tfoot>
+<tfoot align=right>_CONTENT_</tfoot> :: <tfoot class="wysiwyg-text-align-right">_CONTENT_</tfoot>
+<th align=center>_CONTENT_</th> :: <th class="wysiwyg-text-align-center">_CONTENT_</th>
+<th align=justify>_CONTENT_</th> :: <th class="wysiwyg-text-align-justify">_CONTENT_</th>
+<th align=left>_CONTENT_</th> :: <th class="wysiwyg-text-align-left">_CONTENT_</th>
+<th align=right>_CONTENT_</th> :: <th class="wysiwyg-text-align-right">_CONTENT_</th>
+<thead align=center>_CONTENT_</thead> :: <thead class="wysiwyg-text-align-center">_CONTENT_</thead>
+<thead align=justify>_CONTENT_</thead> :: <thead class="wysiwyg-text-align-justify">_CONTENT_</thead>
+<thead align=left>_CONTENT_</thead> :: <thead class="wysiwyg-text-align-left">_CONTENT_</thead>
+<thead align=right>_CONTENT_</thead> :: <thead class="wysiwyg-text-align-right">_CONTENT_</thead>
+<tr align=center>_CONTENT_</tr> :: <tr class="wysiwyg-text-align-center">_CONTENT_</tr>
+<tr align=justify>_CONTENT_</tr> :: <tr class="wysiwyg-text-align-justify">_CONTENT_</tr>
+<tr align=left>_CONTENT_</tr> :: <tr class="wysiwyg-text-align-left">_CONTENT_</tr>
+<tr align=right>_CONTENT_</tr> :: <tr class="wysiwyg-text-align-right">_CONTENT_</tr>
+
+# but align is not allowed on a UL, for example
+<ul align=right></ul> :: <ul></ul>
+
+# convert attribute, and append new class
+<h1 align="center" class="wysiwyg-text-align-right">_CONTENT_</h1> :: <h1 class="wysiwyg-text-align-center wysiwyg-text-align-right">_CONTENT_</h1>
+
+# order of classes and duplicates
+<h1 align="center" class="wysiwyg-text-align-right wysiwyg-text-align-center">_CONTENT_</h1> :: <h1 class="wysiwyg-text-align-right wysiwyg-text-align-center">_CONTENT_</h1>
+
+# test with boolean attributes (they don't make sense and aren't allowed on divs, just checking the parser wether he is swallowing boolean attributes)
+<div async></div> :: <div></div>
+<div autofocus></div> :: <div></div>
+<div autoplay></div> :: <div></div>
+<div checked></div> :: <div></div>
+<div default></div> :: <div></div>
+<div defer></div> :: <div></div>
+<div disabled></div> :: <div></div>
+<div formnovalidate></div> :: <div></div>
+<div hidden></div> :: <div></div>
+<div ismap></div> :: <div></div>
+<div itemscope></div> :: <div></div>
+<div loop></div> :: <div></div>
+<div multiple></div> :: <div></div>
+<div novalidate></div> :: <div></div>
+<div open></div> :: <div></div>
+<div pubdate></div> :: <div></div>
+<div readonly></div> :: <div></div>
+<div required></div> :: <div></div>
+<div reversed></div> :: <div></div>
+<div scoped></div> :: <div></div>
+<div seamless></div> :: <div></div>
+<div selected></div> :: <div></div>

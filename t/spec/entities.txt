@@ -1,0 +1,7 @@
+<span>xäöüß"'</span>                  :: <span>xäöüß&quot;&#39;</span>
+<span>XSL 1.0 のワーキングドラフト公開について</span> :: <span>XSL 1.0 のワーキングドラフト公開について</span>
+<span>našimi rešitvami</span>         :: <span>našimi rešitvami</span>
+<span>"&'<>`{}</span>                 :: <span>&quot;&amp;&#39;&#96;&#123;&#125;</span>
+<span>"&'&lt;>`{}</span>              :: <span>&quot;&amp;&#39;&lt;&gt;&#96;&#123;&#125;</span>
+
+<img alt="&'<>`{}äöüß.,:;*+#@?=%$§!€/()^°´ _abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-" src="http://www.example.com/example.png"> :: <img alt=" _abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-" src="http://www.example.com/example.png">

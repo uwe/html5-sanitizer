@@ -1,0 +1,29 @@
+<a href="http://www.example.com"><h2>About me</h2><p>Find out</p></a> :: <a href="http://www.example.com/" rel="nofollow" target="_blank"><h2>About me</h2><p>Find out</p></a>
+<a href="https://www.example.com">https</a> :: <a href="https://www.example.com/" rel="nofollow" target="_blank">https</a>
+<a href="HTTPS://www.example.com">https</a> :: <a href="https://www.example.com/" rel="nofollow" target="_blank">https</a>
+<a href="HTTP://www.example.com/">http</a> :: <a href="http://www.example.com/" rel="nofollow" target="_blank">http</a>
+<a href="file:///Users/Ingo.Chao/Desktop/test.html">file</a> :: <a rel="nofollow" target="_blank">file</a>
+<a href="../../tabellen/anzeige/layout.htm">file</a> :: <a rel="nofollow" target="_blank">file</a>
+<a href="httpspage.htm">file</a> :: <a rel="nofollow" target="_blank">file</a>
+<a href="#end">intern</a> :: <a rel="nofollow" target="_blank">intern</a>
+<a href="ftp://ftp.uni-augsburg.de/">FTP</a> :: <a rel="nofollow" target="_blank">FTP</a>
+<a href="gopher://ftp.std.com/1">Gopher</a> :: <a rel="nofollow" target="_blank">Gopher</a>
+<a href="telnet://locis.loc.gov/">Telnet</a> :: <a rel="nofollow" target="_blank">Telnet</a>
+<a href="news:de.comm.infosystems.www.authoring.misc">Newsgroup</a> :: <a rel="nofollow" target="_blank">Newsgroup</a>
+<a href="mailto:fritz@example.org">fritz@example.org</a> :: <a rel="nofollow" target="_blank">fritz@example.org</a>
+<a href="javascript:document.vulnerable=true;">javascript</a> :: <a rel="nofollow" target="_blank">javascript</a>
+<a href="javascript#document.vulnerable=true;">javascript</a> :: <a rel="nofollow" target="_blank">javascript</a>
+<a href="about:<script>document.vulnerable=true;</script>">javascript</a> :: <a rel="nofollow" target="_blank">javascript</a>
+<img alt="img" height="1" src="http://www.example.com/example.png" width="1"> :: <img alt="img" height="1" src="http://www.example.com/example.png" width="1">
+<img alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" height="1" src="https://www.example.com/example.png" width="1">
+<img alt="img" height="1" src="../../example.png" width="1"> :: <img alt="img" height="1" width="1">
+<img alt="img" height="1" src="javascript:document.vulnerable=true;" width="1"> :: <img alt="img" height="1" width="1">
+<img alt='img'> :: <img alt="img">
+
+# alignment
+<img alt="img" class="wysiwyg-float-left" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-left" height="1" src="https://www.example.com/example.png" width="1">
+<img alt="img" class="wysiwyg-float-right" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-right" height="1" src="https://www.example.com/example.png" width="1">
+<img align="left" alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-left" height="1" src="https://www.example.com/example.png" width="1">
+<img align="right" alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-right" height="1" src="https://www.example.com/example.png" width="1">
+<img align="LEFT" alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-left" height="1" src="https://www.example.com/example.png" width="1">
+<img align="RIGHT" alt="img" height="1" src="https://www.example.com/example.png" width="1"> :: <img alt="img" class="wysiwyg-float-right" height="1" src="https://www.example.com/example.png" width="1">

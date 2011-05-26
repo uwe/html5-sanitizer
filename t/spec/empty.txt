@@ -1,0 +1,7 @@
+# empty elements that are supported
+<div></div> :: <div></div>
+<span></span> :: <span></span>
+<table><tr></tr></table> :: <table><tr></tr></table>
+<ol></ol> :: <ol></ol>
+<ul></ul> :: <ul></ul>
+text :: text
