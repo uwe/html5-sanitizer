@@ -100,3 +100,24 @@ no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;
+
+=pod
+
+=head1 DESCRIPTION
+
+Convert a L<XML::LibXML> document into a HTML string.
+
+=head1 METHODS
+
+=head2 new
+
+Constructor. Doesn't take any parameters.
+
+=head2 process
+
+Walks through the L<XML::LibXML> document (given as parameter) and writes HTML.
+
+This class was mainly necessary for some additional escapes (and I could not
+find a way to integrate this nicely in L<XML::LibXML>).
+
+=cut

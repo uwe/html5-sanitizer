@@ -54,3 +54,23 @@ no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;
+
+=pod
+
+=head1 DESCRIPTION
+
+Parses a HTML string into a L<XML::LibXML> document.
+
+=head1 METHODS
+
+=head2 new
+
+Constructor. You may pass in C<parser_options> and C<parse_html_options>.
+Both are hashrefs. The first one is used for C<< XML::LibXML->new >>, the
+latter for C<< $parser->parse_html_string >>.
+
+=head2 process
+
+Given a HTML string it returns a L<XML::LibXML> document.
+
+=cut

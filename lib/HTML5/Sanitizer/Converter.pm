@@ -218,3 +218,38 @@ no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;
+
+__END__
+
+=pod
+
+=head1 DESCRIPTION
+
+Converts a L<XML::LibXML> document according to a profile (whitelisting).
+
+Actually, the tree is rebuilt and only allowed tags and attributes are
+recreated.
+
+=head1 METHODS
+
+=head2 new
+
+Constructor. Doesn't take any parameters.
+
+=head2 process
+
+Positional parameters:
+
+=over 4
+
+=item input (L<XML::LibXML> document)
+
+=item specification (L<HTML5::Sanitizer::Specification> object)
+
+=item profile (see L<HTML5::Sanitizer/PROFILE>)
+
+=back
+
+The result is a L<XML::LibXML> document too.
+
+=cut

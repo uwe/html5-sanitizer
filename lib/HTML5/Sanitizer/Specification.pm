@@ -173,3 +173,22 @@ no Moose;
 __PACKAGE__->meta->make_immutable;
 
 1;
+
+=pod
+
+=head1 DESCRIPTION
+
+HTML5 specification. It is used by L<HTML5::Sanitizer::Converter> to handle
+unknown elements (where the profile's tag call returns C<undef>).
+
+=head1 CLASS METHODS
+
+=head2 elements
+
+Returns a list of all known elements.
+
+=head2 content_model
+
+Returns the content_model for the given tag, or C<undef>.
+
+=cut
